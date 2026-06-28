@@ -1,0 +1,1 @@
+for dir in input/*/; do echo "$dir: $(ls "$dir"*.mid 2>/dev/null | wc -l) files"; done
